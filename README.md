@@ -1,13 +1,17 @@
-#Případovka
+##Případovka
 
-#Requirements
+##Requirements
 
 - installed nodeJS(https://nodejs.org/en)
 
-#Instalation
+##Instalation
 
-- npm install / yarn install
+```sh
+npm install 
+```
 
-#Running
+##Running
 
-- npm run start
+```sh
+npm run start
+```
