@@ -1,0 +1,18 @@
+/*** Medicon clinic start ***/
+.medicon-clinic{
+    background: url('../assets/33.png') top 32% right -1% no-repeat;
+    .image-box{
+        @media (max-width: 1767px){
+            max-width: 100%;
+            position: static;
+        }
+        @media (min-width: 1768px){
+            left: -560px;
+        }
+        @media (min-width: 1860px){
+            left: -602px;
+        }
+        
+    }
+}
+/*** Medicon clinic end ***/

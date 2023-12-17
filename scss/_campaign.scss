@@ -1,0 +1,11 @@
+/*** Campaign start ***/
+.campaign {
+  padding: 3% 0;
+  background: url("../assets/element_right.png") top 25% right 8% no-repeat,
+    url("../assets/400.png") top 48% left 24% no-repeat,
+    url("../assets/element_left.png") bottom 6% left 8% no-repeat;
+  .image-box {
+    position: static;
+  }
+}
+/*** Campaign end ***/

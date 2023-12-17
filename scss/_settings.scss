@@ -1,0 +1,106 @@
+/*** Settings start ***/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Raleway:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  p {
+    font-size: 24px;
+  }
+  
+  .text {
+    padding-bottom: 3%;
+  }
+  
+  .container {
+    max-width: $content-width;
+    margin-inline: auto;
+    @media (max-width: 750px) {
+      padding-inline: 16px;
+    }
+  }
+  
+  .primary-heading {
+    color: $primary;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+    padding-inline: 2rem;
+  }
+  
+  .secondary-heading {
+    color: $primary;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  
+  .tertiary-heading {
+    font-size: 38px;
+    font-weight: 800;
+    @media (min-width: 1700px) {
+      padding-bottom: 20px;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-box {
+    @media (min-width: 1200px) {
+      width: 100vw;
+      max-width: none;
+      position: relative;
+      left: -231px;
+    }
+  }
+  
+  .block {
+    background: $secondary;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0 1rem;
+    @media (min-width: 1700px) {
+      margin-bottom: 45px;
+    }
+    p {
+      color: $tertiary;
+      font-size: 20px;
+      max-width: 540px;
+      margin: 0 auto;
+      @media (max-width: 600px){
+        padding-inline: 16px;
+      }
+    }
+  
+    .author-image {
+      padding-top: 0.75rem;
+    }
+    .author {
+      font-size: 14px;
+      text-align: right;
+      width: 100%;
+      @media (min-width: 720px) {
+        position: relative;
+        left: 70px;
+      }
+    }
+  }
+  /*** Settings end ***/
+
+
+
+ 

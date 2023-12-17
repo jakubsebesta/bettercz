@@ -1,0 +1,25 @@
+/*** Intro start ***/
+
+.intro{
+    background: url('../assets/main.jpeg');
+    background-size: cover;
+    padding: 1% 0 3%;
+
+    .primary-heading{
+        padding-top: 35px;
+    }
+
+    .main-image-box{
+        width: 100vw;
+        max-width: none;
+        position: relative;  
+    }
+    
+    .intro-text{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+}
+
+/*** Intro end ***/

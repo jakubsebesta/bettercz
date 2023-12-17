@@ -1,0 +1,37 @@
+/*** Header start ***/
+header{
+    position: absolute;
+    width: 100%;
+    .navigation-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 20px 0;
+        hr{
+            height: 2px;
+            width: 80%;
+            border: none;
+            background: $secondary;
+           
+    
+        }
+        .toggler{
+            background: none;
+            border: none;
+            display: flex;
+            cursor: pointer;
+            position: relative;
+            transition: .3s linear;
+            &:hover{
+                filter: blur(.5);
+            }
+        }
+    }
+}
+
+
+
+
+
+/*** Header end ***/
